@@ -1,3 +1,5 @@
+import 'package:chat_demo/core/network/api_config.dart';
+
 import '../../../../core/error/exceptions.dart';
 import '../../../../core/network/api_client.dart';
 import '../models/contact/contact_model.dart';
@@ -13,7 +15,7 @@ class ContactsDataSourceImpl implements ContactsDataSource {
   ApiClient get apiClient => _apiClient;
 
   Future<List<ContactModel>> getContacts(String token) async {
-    final response = await _apiClient.get('/contacts', headers: {'Authorization': 'Bearer $token'});
+    final response = await _apiClient.get(ApiConfig.contactsEndpoint, headers: {'Authorization': 'Bearer $token'});
     if (response.statusCode == 200) {
       return (response.data as List)
           .map((json) => ContactModel.fromJson(json))

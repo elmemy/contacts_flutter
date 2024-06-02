@@ -1,3 +1,4 @@
+import 'package:chat_demo/core/network/api_config.dart';
 import 'package:dio/dio.dart';
 
 import '../error/exceptions.dart';
@@ -8,7 +9,7 @@ class ApiClient {
   final NetworkInfo networkInfo;
 
   ApiClient(this.dio, this.networkInfo) {
-    dio.options.baseUrl = 'https://mobile-dev-assignment.fly.dev/';
+    dio.options.baseUrl = ApiConfig.baseUrl;
     dio.interceptors.add(LogInterceptor(responseBody: true));
   }
 
