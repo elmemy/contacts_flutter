@@ -64,6 +64,7 @@ lib/
 │   │   ├── app_localizations.dart
 │   ├── network/
 │   │   ├── api_client.dart
+│   │   ├── api_config.dart
 │   │   ├── network_info.dart
 │   ├── theme/
 │   │   ├── colors.dart
