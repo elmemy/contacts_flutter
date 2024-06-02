@@ -36,6 +36,9 @@ This is a sophisticated demo chatting application built using Flutter. The appli
 
     -  data_source: Common data sources.
     -  presentation: Shared widgets used across different features.
+ 
+
+![Screenshot 2024-06-02 at 2 07 03 AM](https://github.com/elmemy/contacts_flutter/assets/13080678/268ce808-87bf-4b77-b29b-1194dc083589)
 
     
 ## Running Tests
@@ -46,7 +49,6 @@ flutter test --coverage
 genhtml coverage/lcov.info -o coverage/html
 open coverage/html/index.html
 ```
-![Screenshot 2024-06-02 at 2 07 03 AM](https://github.com/elmemy/Chat_Flutter/assets/13080678/37730605-d5c0-4d29-a279-d4dedfe967b4)
 
 ## Project Structure
 
