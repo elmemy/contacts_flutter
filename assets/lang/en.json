@@ -1,0 +1,22 @@
+{
+  "login": "Login",
+  "use": "Use",
+  "email": "Email",
+  "or": "OR",
+  "password": "Password",
+  "forgot_password": "Forgot Password?",
+  "sign_in": "Sign In",
+  "no_account": "Don't have an account?",
+  "contacts": "Contacts",
+  "create_account": "create_account",
+  "not_authenticated": "You are not authenticated.",
+  "user_name_required": "The Username is required",
+  "username": "username",
+  "password_required": "The password is required",
+  "password_too_short": "Password must be at least 8 characters long",
+  "password_must_contain_uppercase": "Password must contain at least one uppercase letter",
+  "password_must_contain_lowercase": "Password must contain at least one lowercase letter",
+  "password_must_contain_number": "Password must contain at least one number",
+  "password_must_contain_special": "Password must contain at least one special character",
+  "ask_about_lecture": "Ask me about your lecture.."
+}
