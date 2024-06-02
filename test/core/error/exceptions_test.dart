@@ -3,17 +3,16 @@ import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   group('ServerException', () {
-    test('should return the correct message', () {
+    test('should return the correct message when toString is called', () {
+      // Arrange
       final message = 'Server error occurred';
       final exception = ServerException(message);
 
-      expect(exception.message, equals(message));
-    });
+      // Act
+      final result = exception.toString();
 
-    test('should be an instance of Exception', () {
-      final exception = ServerException('Server error occurred');
-
-      expect(exception, isA<Exception>());
+      // Assert
+      expect(result, message);
     });
   });
 

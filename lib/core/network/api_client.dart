@@ -1,4 +1,4 @@
-import 'package:chat_demo/core/network/api_config.dart';
+import 'api_config.dart';
 import 'package:dio/dio.dart';
 
 import '../error/exceptions.dart';

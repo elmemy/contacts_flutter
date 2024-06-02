@@ -32,12 +32,12 @@
             <td></td>
             <td class="headerItem">Lines:</td>
             <td class="headerCovTableEntryHi">100.0&nbsp;%</td>
-            <td class="headerCovTableEntry">5</td>
-            <td class="headerCovTableEntry">5</td>
+            <td class="headerCovTableEntry">6</td>
+            <td class="headerCovTableEntry">6</td>
           </tr>
           <tr>
             <td class="headerItem">Test Date:</td>
-            <td class="headerValue">2024-06-02 16:20:55</td>
+            <td class="headerValue">2024-06-02 21:47:31</td>
             <td></td>
             <td class="headerItem">Functions:</td>
             <td class="headerCovTableEntryHi">-</td>
@@ -79,7 +79,7 @@
 <span id="L17"><span class="lineNum">      17</span>              : </span>
 <span id="L18"><span class="lineNum">      18</span> <span class="tlaGNC">           1 :   @override</span></span>
 <span id="L19"><span class="lineNum">      19</span>              :   Future&lt;String?&gt; getToken() async {</span>
-<span id="L20"><span class="lineNum">      20</span>              :     // await _secureStorage.deleteAll();</span>
+<span id="L20"><span class="lineNum">      20</span> <span class="tlaGNC">           2 :     await _secureStorage.deleteAll();</span></span>
 <span id="L21"><span class="lineNum">      21</span> <span class="tlaGNC">           2 :     final token = await _secureStorage.read(key: 'token');</span></span>
 <span id="L22"><span class="lineNum">      22</span>              :     return token;</span>
 <span id="L23"><span class="lineNum">      23</span>              :   }</span>
